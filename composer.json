@@ -1,0 +1,24 @@
+{
+    "name": "giko/image-bundle",
+    "type": "symfony-bundle",
+    "description": "Giko Image Resize Bundle",
+    "keywords": ["Image Resize"],
+    "homepage": "https://github.com/gikoluo/ImageBundle",
+    "license": "Apache License 2.0",
+    "authors": [
+        {
+            "name": "LuoChunhui",
+            "homepage": "http://www.luochunhui.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "php-imagick": ">=3.0.0",
+        "symfony/framework-bundle": "2.*",
+        "sonata-project/media-bundle": ">=2.1,<2.5-dev"
+    },
+    "autoload": {
+        "psr-0": { "Giko\\ImageBundle": "" }
+    },
+    "target-dir": "Giko/ImageBundle"
+}

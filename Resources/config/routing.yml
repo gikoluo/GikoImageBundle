@@ -1,0 +1,4 @@
+giko_image:
+    resource: "@GikoImageBundle/Controller/"
+    type:     annotation
+    prefix:   /i
